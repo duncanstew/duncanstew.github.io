@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
  
-container {
+.container {
     padding: 1em;
 }
 h1 {
