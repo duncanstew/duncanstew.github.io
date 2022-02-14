@@ -15,9 +15,14 @@
         $('#newbtn').click(function(){
             $('h1#heading1').toggleClass('myClass');
             $('img').addClass('border-img');
+            $('h1#heading1').animate({fontSize: '3rem'}, 3000);
+            setTimeout(function() {
+                $('h1#heading1').animate({fontSize: '2rem'}, 3000);
+            })
         });
     });
     </script>
+
 </head>
 <body>
     <header class="top">
@@ -54,8 +59,8 @@
             </ul>
         </div>
     </section>
-    <section>
-        <button id="newbtn" class="btn"> Add new button</button> 
+    <section class="bottomest">
+        <button id="newbtn" class="btn"> Animate! </button> 
     </section>
 </body>
 </html>
