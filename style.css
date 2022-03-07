@@ -106,6 +106,13 @@
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
 	}
 
+	a:hover {
+		background-color: cadetblue;
+		border-radius: 1rem;
+		padding-right: .0125rem;
+		padding-left: .0125rem;
+	}
+
 	.square {
 		width: 3rem;
 		height: 3rem;
@@ -135,8 +142,7 @@
 		.square{
 			visibility: hidden;
 		}
-		img { max-width: 100%; height: auto;}
-		
+		.imgsize {height: auto; width: 100%; margin-left: auto; margin-right: auto;}		
 		/* footer, main, nav, section {width: 100%; padding: 5px; box-sizing: border-box; background-color: aqua;} */
 		nav ul li {width: 100%; text-align: center; line-height: 2rem; height: 2rem;}
 	}
@@ -160,4 +166,10 @@
 			visibility: visible;
 		}
 		img {float: left; margin:0  10px 10px 0;}
+	}
+
+	@media (hover: hover) {
+		.hover {
+			display: block;
+		}
 	}
