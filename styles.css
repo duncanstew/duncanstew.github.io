@@ -1,0 +1,98 @@
+body{  
+    font-family:Georgia, Arial, Helvetica, Sans-serif,serif;
+    font-size:15px;
+    color:#000;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+ 
+.container {
+    padding: 1em;
+}
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    left: 50%;
+}
+ 
+h3 {
+    display: flex;
+    font-size:16px;
+}
+
+.btn {
+ display:inline-block;
+ padding:0.4em 1.2em;
+ border:0.1em solid #FFFFFF;
+ border-radius:0.20em;
+ box-sizing: border-box;
+ font-weight:300;
+}
+
+p {
+    display: flex;
+    font-size:16px;
+}
+img {
+    display: flex;
+    height: 200px;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+ 
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.new-color {
+    color: aqua;
+}
+.myClass {
+    color: #0074D9;
+    background: #001f3f;
+    border-radius: 20px;
+    padding: 10px;
+}
+.border-img {
+    border: 5px solid #555;
+}
+
+.middle-bottom{
+    padding-left: 5rem;
+}
