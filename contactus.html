@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+
+  <title>ABC Toys</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+</script>
+
+</head>
+
+<body>
+  <div id="nav-placeholder">
+
+  </div>
+
+  <div class="container py-5" style="margin-top: 11rem;">
+        <header>
+            <h2 class="display-4">Contact Us</h2>
+        </header>
+        <form>
+        <div class="form-group">
+            <label for="email" style="font-size: 1.4rem;">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="password" style="font-size: 1.4rem;">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+        </div>
+        <div style="display: flex;flex-direction: row;">
+            <div class="form-group" style="width: 50%">
+                <label for="FN" style="font-size: 1.4rem;">First Name</label>
+                <input type="text" class="form-control" id="FN" placeholder="First Name" name="firstname">
+            </div>
+            <div class="form-group" style="width: 50%; margin-left: 5px;">
+                <label for="LN" style="font-size: 1.4rem;">Last Name</label>
+                <input type="text" class="form-control" id="LN" placeholder="Last Name" name="lastname">
+            </div>
+        </div>
+        <div class="col-md-14">
+            <div class="form-group"> <label style="font-size: 1.4rem;" for="form_message" >Message</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+        </div>
+        <button type="submit" class="btn btn-default" style="background-color: cornflowerblue; color: white; font-weight: 500; border-radius: 10px;">Submit</button>
+        </form>
+    </div>
+  
+
+  
+
+    <div class="container pb-5">
+        <p class="text-secondary lead">Email: jimmyjohns@gmail.com </p>
+        <p class="text-secondary lead">Telephone: 650-987-6543</p>
+        <p class="text-secondary lead">Address: 154 Centennial Way, Redwood City, CA, 94070</p>
+        <a class="text-info lead" href="https://www.facebook.com/randompage514/" target="_blank" rel="noopener noreferrer">Facebook Random Page</a>
+    </div>
+  
+
+
+</body>
+
+</html>

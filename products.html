@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <title>ABC Toys</title>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  
+
+</head>
+<body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="my-5" style="margin-top:10%">
+    <div style="height: 14rem; width: 14rem;">
+      <!-- padding-->
+    </div>
+  </div>
+
+  <header class="container my-5">
+    <h2 class="display-3">Products</h2>
+    <p class="text-success"> Find all the toys you could ever want here in this shop. Legos all around!</p>
+  </header>
+  
+
+  <div class="container products-container">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="d-flex flex-row">
+              <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16,21h-2v-7h2V21z M15,11.5 c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5S15.828,11.5,15,11.5z"/></svg>
+              <h5 class="w-75">Trash Compactor</h5>
+            </a>
+            
+          </div>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+            <img src="imgs/lego1.webp" class="img-collapsible" alt="Lego Product of star wars garbage compactor">
+          <div class="panel-body"><p>Purchase this wonderful lego set today! Capture this wonderful moment in Star Wars canon. Pictured are Luke, Leia, Han, and Chewbacca making a daring excape.</p></div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="d-flex flex-row">
+              <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16,21h-2v-7h2V21z M15,11.5 c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5S15.828,11.5,15,11.5z"/></svg>
+              <h5 class="w-75">Star Wars Tank</h5>
+            </a>
+            
+          </div>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+            <img src="imgs/lego2.webp" class="img-collapsible" alt="Lego Product of star wars garbage compactor">
+          <div class="panel-body"> <p>A super exciting lego set with 5+ minifigures included. Help Mace Windu take down the droid army with his fellow clones.</p> </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title ">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="d-flex flex-row">
+              <svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16,21h-2v-7h2V21z M15,11.5 c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5S15.828,11.5,15,11.5z"/></svg>
+              <h5 class="w-75">Star Wars Starship</h5>
+            </a>
+            
+          </div>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+            <img src="imgs/lego3.webp" class="img-collapsible" alt="Lego Product of star wars garbage compactor">
+          <div class="panel-body"><p>Fly across the galaxy in the Mandolorians new star ship. With Grogu helping, there isn't anything these two can't accomplish. Sith beware!</p></div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  
+
+
+</body>
+
+</html>
